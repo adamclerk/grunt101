@@ -1,0 +1,44 @@
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+h3 {
+	font-size: .5em;
+}
+
+h1 small {
+	font-size: .5em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+
+*:first-child+html .clearfix { zoom: 1; }
+
+.pull-right {
+	float: right;
+}
+
+.pull-left {
+	float: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+
+div.centered {
+	margin: 0 auto;
+	text-align: center;
+}
